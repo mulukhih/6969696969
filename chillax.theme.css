@@ -1,12 +1,12 @@
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
-  --main-color: #2F2F2F;
-  --hover-color: #404040;
+  --main-color: #8D8D8D;
+  --hover-color: #E1E1E1;
   --success-color: #43b581;
   --danger-color: #982929;
   --url-color: var(--main-color);
-  --background-image: url('https://r4.wallpaperflare.com/wallpaper/503/737/250/digital-art-artwork-jungle-landscape-wallpaper-2eb9af262f058259523cd58c1267ace5.jpg');
+  --background-image: url('https://i.imgur.com/jkDPXhY.jpg');
   --background-shading: 0%;
   --background-position: center;
   --background-size: cover;
@@ -19,7 +19,7 @@
   --background-invert: 0%;
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: url('https://r4.wallpaperflare.com/wallpaper/503/737/250/digital-art-artwork-jungle-landscape-wallpaper-2eb9af262f058259523cd58c1267ace5.jpg');
+  --user-popout-image: url('https://clearvision.github.io/images/sapphire.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -30,12 +30,12 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
-  --user-modal-image: url('https://r4.wallpaperflare.com/wallpaper/503/737/250/digital-art-artwork-jungle-landscape-wallpaper-2eb9af262f058259523cd58c1267ace5.jpg');
+  --user-modal-image: url('https://clearvision.github.io/images/sapphire.jpg');
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
   --user-modal-attachment: fixed;
-  --user-modal-brightness: 251%;
+  --user-modal-brightness: 100%;
   --user-modal-contrast: 100%;
   --user-modal-saturation: 100%;
   --user-modal-grayscale: 0%;
@@ -44,9 +44,9 @@
   --home-icon: url('https://clearvision.github.io/icons/discord.svg');
   --home-position: center;
   --home-size: 40px;
-  --channel-unread: #FFFFFF;
-  --channel-color: rgb(165,165,165,0);
-  --muted-color: rgb(0,0,0,0.53);
+  --channel-unread: var(--main-color);
+  --channel-color: rgba(255,255,255,0.3);
+  --muted-color: rgba(255,255,255,0.1);
   --online-color: #43b581;
   --idle-color: #faa61a;
   --dnd-color: #982929;
